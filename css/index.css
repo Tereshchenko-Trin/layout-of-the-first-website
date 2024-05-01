@@ -1,0 +1,289 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+}
+
+.header {
+	padding: 6px 0px;
+}
+
+.container {
+	max-width: 1070px;
+	margin: auto;
+	padding: 0px 15px;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+}
+
+.header__nav {
+	min-width: 423px;
+}
+
+.header__nav-list {
+    display: flex;
+	align-items: space-between;
+	gap: 28px;
+}
+
+.header__nav-list__item {
+	font-weight: 700;
+	color: #1C1B1B;
+}
+
+.header__logo-wrapper {
+	align-items: center;
+}
+
+.header__icons-wrapper {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+
+.introdaction {
+	background: #F0EFEB;
+}
+
+.introdaction__container {
+	display: flex;
+	justify-content:space-between;
+}
+
+.introdaction__text-block {
+	padding: 90px 0px;
+	max-width: 530px;
+}
+
+.introdaction__title {
+	font-size: 60px;
+	line-height: 70px;
+	margin-bottom: 42px;
+}
+
+.introdaction__text {
+	line-height: 28px;
+	font-size: 24px;
+	margin-bottom: 26px;
+}
+
+.introdaction__button {
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 8px 23px;
+	border-radius: 100px;
+	font-size: 17px;
+	line-height: 20px;
+}
+
+.tagline__conteiner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 60px;
+	padding-bottom: 13px;
+}
+
+.tagline__title {
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 700;
+	margin-bottom: 26px;
+}
+
+.tagline__text-block__wrapper {
+	max-width: 632px;
+}
+
+.tagline__text {
+	text-align: center;
+	font-size: 20px;
+	line-height: 23px;
+	margin-bottom: 47px;
+}
+
+.best-sellers__container {
+	padding-top: 27px;
+	padding-bottom: 240px;
+}
+
+.best-sellers__title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 700;
+	margin-bottom: 52px;
+}
+
+.best-sellers__cards-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.best-sellers__card {
+	width: 315px;
+}
+
+.best-sellers__card__image-wrapper {
+	margin-bottom: 20px;
+}
+
+.best-sellers__card__title {
+	width: 160px;
+	margin: auto;
+	text-align: center;
+	font-size: 17px;
+	line-height: 20px;
+	font-weight: 700;
+	margin-bottom: 17px;
+}
+
+.best-sellers__card__price {
+	text-align: center;
+	font-size: 17px;
+	line-height: 20px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.best-sellers__card__button-wrapper {
+	text-align: center;
+}
+
+.best-sellers__card__button {
+	background: none;
+	text-decoration: underline;
+	font-size: 17px;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.people {
+	background: #CCCCCC4D;
+}
+
+.people__container {
+	padding-top: 76px;
+	padding-bottom: 51px;
+	display: flex;
+}
+
+.people__image {
+	margin-right: 50px;
+}
+
+.people__title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	margin-top: 63px;
+	margin-bottom: 31px;
+}
+
+.people__text {
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 42px;
+	margin-bottom: 31px;
+	max-width: 498px;
+}
+
+.people__text-block__link {
+	text-decoration: underline;
+	color: #000000;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.culture {
+	background: #CCCCCC99;
+}
+
+.culture__container {
+	padding-top: 76px;
+	padding-bottom: 51px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.culture__title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	margin-top: 63px;
+	margin-bottom: 31px;
+	text-align: right;
+}
+
+.culture__text {
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 42px;
+	margin-bottom: 31px;
+	max-width: 498px;
+	text-align: right;
+}
+
+.culture__text-block__link {
+	text-decoration: underline;
+	color: #000000;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: right;
+}
+
+.culture__image {
+	margin-left: 50px;
+}
+
+.power {
+	background: #CCCCCC4D;
+}
+
+.power__container {
+	padding-top: 76px;
+	padding-bottom: 51px;
+	display: flex;
+}
+
+.power__image {
+	margin-right: 50px;
+}
+
+.power__title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	margin-top: 63px;
+	margin-bottom: 31px;
+}
+
+.power__text {
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 42px;
+	margin-bottom: 31px;
+	max-width: 498px;
+}
+
+.power__text-block__link {
+	text-decoration: underline;
+	color: #000000;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 20px;
+}
