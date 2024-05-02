@@ -304,7 +304,7 @@ h2 {
 }
 
 .features__item {
-	width: 338px;
+	max-width: 338px;
 	text-align: center;
 }
 
@@ -340,7 +340,6 @@ h2 {
 .interviews__items-wrapper {
 	display: flex;
 	justify-content: space-between;
-	column-gap: 100px;
 }
 
 .interviews__item__text {
@@ -427,7 +426,7 @@ h2 {
 	justify-content: space-between;
 }
 
-.footer__left-groupe {
+.footer__left-group {
 	width: 129px;
 }
 
@@ -444,7 +443,7 @@ h2 {
 .footer__nav {
 	display: flex;
 	column-gap: 72px;
-	margin: 8px;
+	margin-bottom: 8px;
 }
 
 .footer__nav-title {
