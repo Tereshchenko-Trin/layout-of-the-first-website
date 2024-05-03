@@ -12,6 +12,12 @@ button {
 	border: none;
 }
 
+h2 {
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 700;
+}
+
 .header {
 	padding: 6px 0px;
 }
@@ -97,9 +103,6 @@ button {
 }
 
 .tagline__title {
-	font-size: 36px;
-	line-height: 42px;
-	font-weight: 700;
 	margin-bottom: 26px;
 }
 
@@ -121,9 +124,6 @@ button {
 
 .best-sellers__title {
 	text-align: center;
-	font-size: 36px;
-	line-height: 42px;
-	font-weight: 700;
 	margin-bottom: 52px;
 }
 
@@ -185,9 +185,6 @@ button {
 }
 
 .people__title {
-	font-size: 36px;
-	font-weight: 700;
-	line-height: 42px;
 	margin-top: 63px;
 	margin-bottom: 31px;
 }
@@ -220,9 +217,6 @@ button {
 }
 
 .culture__title {
-	font-size: 36px;
-	font-weight: 700;
-	line-height: 42px;
 	margin-top: 63px;
 	margin-bottom: 31px;
 	text-align: right;
@@ -265,9 +259,6 @@ button {
 }
 
 .power__title {
-	font-size: 36px;
-	font-weight: 700;
-	line-height: 42px;
 	margin-top: 63px;
 	margin-bottom: 31px;
 }
@@ -286,4 +277,239 @@ button {
 	font-size: 17px;
 	font-weight: 700;
 	line-height: 20px;
+}
+
+.features__conteiner {
+	padding-top: 190px;
+}
+
+.features__text-wrapper {
+	max-width: 450px;
+	margin: auto;
+}
+
+.features__text {
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 42px;
+	text-align: center;
+	margin-bottom: 69px;
+}
+
+.features__items-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 110px;
+}
+
+.features__item {
+	width: 338px;
+	text-align: center;
+}
+
+.features__item__image-written {
+	width: 70px;
+	height: 70px;
+	background: #21F7EC;
+	border-radius: 50%;
+	margin: 0px auto 26px;
+}
+
+.features__item__image-packed {
+	width: 70px;
+	height: 70px;
+	background: #33D3BC ;
+	border-radius: 50%;
+	margin: 0px auto 26px;
+}
+
+.features__item__image-interviews {
+	width: 70px;
+	height: 70px;
+	background: #18A5C6;
+	border-radius: 50%;
+	margin: 0px auto 26px;
+}
+
+.features__item__image-key {
+	width: 70px;
+	height: 70px;
+	background: #D38F62;
+	border-radius: 50%;
+	margin: 0px auto 26px;
+}
+
+.features__item__image-concise {
+	width: 70px;
+	height: 70px;
+	background: #F94C43;
+	border-radius: 50%;
+	margin: 0px auto 26px;
+}
+
+.features__item__image-instant {
+	width: 70px;
+	height: 70px;
+	background: #D399FF;
+	border-radius: 50%;
+	margin: 0px auto 26px;
+}
+
+.features__item__text {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 35px;
+}
+
+.interviews {
+	background: linear-gradient(#FFFFFF 50%, #F0F0F0 50%);
+}
+
+.interviews__container {
+	padding-top: 105px;
+	padding-bottom: 51px;
+}
+
+.interviews__title-wrapper {
+	max-width: 705px;
+	margin: auto;
+}
+
+.interviews__title {
+	text-align: center;
+	margin-bottom: 102px;
+}
+
+.interviews__items-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.interviews__item__text {
+	text-align: center;
+	margin: auto;
+	max-width: 260px;
+}
+
+.interviews__item__image {
+	margin-bottom: 35px;
+}
+
+.interviews__item__text {
+	margin-bottom: 34px;
+}
+
+.interviews__item__quote {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+.interviews__item__author {
+	font-style: normal;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23px;
+}
+
+.interview__item__text-link {
+	margin-top: 44px;
+	text-align: center;
+}
+
+.interview__item__link {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	text-decoration: underline;
+	color: #000000;
+}
+
+.subscription__container {
+	padding-top: 79px;
+	padding-bottom: 89px;
+	text-align: center;
+}
+
+.subscription__text-wrapper {
+	max-width: 496px;
+	margin: auto;
+}
+
+.subscription__title {
+	margin-bottom: 9px;
+}
+
+.subscription__subtitle {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 20px;
+	margin-bottom: 26px;
+}
+
+.subscription__button {
+	color: #ffffff;
+	background: #000000;
+	padding: 7px 23px 10px;
+	border-radius: 100px;
+}
+
+.footer {
+	background: #020202;
+}
+
+.footer__container {
+	padding-top: 51px;
+	padding-bottom: 16px;
+	color: #ffffff;
+}
+
+.footer__container-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__left-group {
+	width: 129px;
+}
+
+.footer__logo {
+	margin-bottom: 25px;
+}
+
+.footer__icons-wrapper {
+	display: flex;
+	column-gap: 20px;
+	justify-content: center;
+}
+
+.footer__nav {
+	display: flex;
+	column-gap: 72px;
+	margin-bottom: 8px;
+}
+
+.footer__nav-title {
+	margin-bottom: 36px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	text-transform: uppercase; 
+}
+
+.footer__nav-item {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	margin-bottom: 12px;
+}
+
+.footer__text {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	text-transform: uppercase;
 }
